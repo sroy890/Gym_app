@@ -15,6 +15,8 @@ from flask import Flask, request,jsonify,render_template
 import pickle
 import pandas as pd
 import numpy as np
+import warnings
+warnings.filterwarnings("ignore")
 
 app = Flask(__name__)
 filename = 'Model_GYM.pkl'
