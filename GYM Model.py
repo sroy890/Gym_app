@@ -7,6 +7,8 @@ from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
+import warnings
+warnings.filterwarnings("ignore")
 
 data = pd.read_excel(r'C:\Users\rakes\Downloads\dataGYM.xlsx')
 
